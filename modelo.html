@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-bt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +8,22 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 
-<body>
+<body onload="carregar()">
     <header>
-        <h1> Verificador de Idade </h1>
+        <h1>HORA DO DIA</h1>
     </header>
     <section>
-        <div>
-           <p>Ano de Nascimento
-                <input type="number" name="txtano" id="txtano" min="0">
-           </p>
-           <p>Sexo:
-                <input type="radio" name="radsex" id="masc" checked>
-                <label for="masc">Maculino</label>
-                <input type="radio" name="radsex" id="fem">
-                <label for="fem">Feminino</label>
-           </p>
-           <p>
-            <input type="button" value="Verificar" onclick="verificar()">
-           </p>
-
+        <div id="msg">
+            Aqui aparece a mensagem
         </div>
-        <div id='res'>
-            Preencha os dados acima para ver o resultado
+        <div id="foto">
+            <img id="img" src="fotomanha.png" alt="foto do dia">
         </div>
     </section>
     <footer>
-        <p>&copy;Yo_matos</p>
+        <p>&copy; Guilherme Oliveira</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

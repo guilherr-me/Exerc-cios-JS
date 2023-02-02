@@ -1,34 +1,33 @@
 body {
-    background: rgb(91, 91, 204);
-    font: normal 20pt arial;
+        background: rgba(142, 48, 230, 0.568);
+        font: normal 15pt Arial;
 }
 
 header {
-    color: white;
-    text-align: center;
-    color: white;
-    text-align: center;
-    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.452);
+        color: white;
+        text-align: center;
 }
-img{ 
-    width: 250px;  
-    height: 250px;
-    border-radius: 50%;
-}
-
-section {
-    background: white;
-    border-radius: 10px;
-    padding: 15px;
-    width: 460px;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
-
-
+section{
+        background: whitesmoke;
+        border-radius: 10px;
+        padding: 15px;
+        width: 500px;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
 }
 
 footer{
-    color: white;
-    text-align: center;
-    font-style: italic;
+        color: white;
+        text-align: center;
+        font-style: italic; 
 }
+
+div{
+        text-align: center;
+        padding: 10px;
+}
+img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+ }
